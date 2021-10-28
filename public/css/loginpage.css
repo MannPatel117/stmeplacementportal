@@ -1,0 +1,342 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url(loginbg.png);
+    background-size: cover;
+    
+    margin: 0;
+}
+.navbar{
+    text-decoration: none;
+    padding: 1em;
+}
+.logo{
+    padding-top: 5%;
+    text-decoration: none;
+    font-weight: 700;
+    color: #D40000;
+    font-size: 2em;
+}
+
+        .portal{
+            color:black;
+        }
+
+.nav-item{
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 1%;
+    list-style-type: none;
+    float: right; 
+    margin-right: 2%;  
+}
+.nav-link{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    
+}
+.nav-link:hover{
+    background-color: white;
+    
+    color: black;
+}
+    
+.container{
+    margin-left: 65%;
+    margin-top: 8%;
+}
+.card-header{
+    color: #D40000;
+    font-size: 2.5em;
+    padding-bottom: 4%;
+}
+
+.wrapper{
+    width: 400px; 
+    
+}
+.wrapper .input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.wrapper .input-data .email-input{
+    color: white;
+    font-size: 1.2em;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid floralwhite;
+    outline: none;
+    
+}
+.wrapper .input-data input:focus{
+   
+        border-bottom: 2px solid #D40000;
+}
+    
+.login-email{
+    color: floralwhite;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+.wrappper{
+    width: 400px; 
+    padding-top: 2%;
+}
+.wrappper.input-pass{
+    height: 40px;
+    width: 100%;
+    position: relative;
+
+}
+.wrappper .input-pass .pass-input{
+    color: white;
+    font-size: 1.2em;
+    height: 100%;
+    width: 100%;
+    padding-top: 2%;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid floralwhite;
+    outline: none;
+    
+
+}
+.login-pass{
+    color: floralwhite;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+
+}
+.wrappper .input-pass input:focus{
+   
+    border-bottom: 2px solid #D40000;
+}
+.yaadrkho{
+    padding-top: 2%;
+    color: white;
+}
+.form-check-label{
+    padding-left: 2%;
+    font-size: 1.32em;
+}
+.form-check-input{
+    padding-top: 3%;
+    height: 20px;
+    width: 20px;
+}
+.loginbtn{
+    border: none;
+    margin-top: 3%;
+    text-decoration: none;
+    font-size: 1.3em;
+    border-radius: 20px;
+    width: 95px;
+    transition: 0.5s ease;
+}
+.loginbtn:hover{
+    background: transparent;
+    color: white;
+    border:1px solid white;
+}
+.forgot{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-left: 15px;
+
+}
+.forgot:hover{
+    color: #D40000;
+}
+.containerr{
+    margin-left: 65%;
+    margin-top: 4%;
+}
+.register-namebox{
+    width: 400px; 
+    padding-top: 2%;
+}
+.register-namebox .r-input-name{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.register-namebox .r-input-name .rinput-name{
+    color: white;
+    font-size: 1.2em;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid floralwhite;
+    outline: none;
+    
+}
+.register-namebox .r-input-name .rinput-name:focus{
+   
+        border-bottom: 2px solid #D40000;
+}
+    
+.rdisplay-name{
+    color: floralwhite;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+.register-email{
+    width: 400px; 
+    padding-top: 2%;
+}
+.register-email .r-input-email{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.register-email .r-input-email .rinput-email{
+    color: white;
+    font-size: 1.2em;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid floralwhite;
+    outline: none;
+    
+}
+.register-email .r-input-email .rinput-email:focus{
+   
+        border-bottom: 2px solid#D40000;
+}
+    
+.rdisplay-email{
+    color: floralwhite;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+.register-pass{
+    width: 400px; 
+    padding-top: 2%;
+}
+.register-pass .r-input-pass{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.register-pass .r-input-pass .rinput-pass{
+    color: white;
+    font-size: 1.2em;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid floralwhite;
+    outline: none;
+    
+}
+.register-pass .r-input-pass .rinput-pass:focus{
+   
+        border-bottom: 2px solid #D40000;
+}
+    
+.rdisplay-pass{
+    color: floralwhite;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+.loginbtn2{
+    border: none;
+    margin-top: 3%;
+    text-decoration: none;
+    font-size: 1.3em;
+    border-radius: 20px;
+    width: 110px;
+    transition: 0.5s ease;
+}
+.loginbtn2:hover{
+    background: transparent;
+    color: white;
+    border:1px solid white;
+}
+.nav-item1{
+    display: flex;
+    place-content: space-between;
+    text-decoration: none;
+    margin-left: 85%;
+    list-style-type: none;
+}
+.userid{
+    display: flex;
+    place-content: space-between;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #D40000;
+    font-size: 1.8em;
+    padding-bottom: 5%;
+}
+.userid .user{
+    color:white;
+    padding-left: 7%;
+}
+.logoutbtn{
+    margin-left: 50%;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    border:1px solid white;
+
+
+}
+.logoutbtn:hover{
+    background-color: white;
+    
+    color: black;
+}
+.quote{
+        margin-left: 60%;
+        margin-top: 8%;
+    }
+
+.quotes{
+    font-size: 2.5em;
+    font-weight: 900;
+    color: white;
+    margin-right: 15%;
+    padding-bottom: 2%;
+}
+.stdbutton{
+    margin-left: 69%;
+        margin-top: 1%;
+}
+.stdbtn{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    color: white;
+    background:#D40000;
+
+}
+.stdbtn:hover{
+    color:#D40000 ;
+    background: white;
+    font-size: 1.5em;
+}
+

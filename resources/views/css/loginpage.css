@@ -1,0 +1,10 @@
+@font-face{
+    src:url(fonts/circular-std-medium-500.ttf);
+    font-family: circular;
+}
+.navbar{
+    font-family: circular;
+}
+.navbar{
+    background-color: red;
+}

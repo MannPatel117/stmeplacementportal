@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.topbar{
+    display: flex;
+    margin: 3%;
+}
+.logo{
+    text-decoration: none;
+    color: #D40000;
+    font-weight: 700;
+    font-size: 150%;
+}
+.home-logo{
+    color: black;
+}
+.center{
+    margin-top: 10%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    background: url(homebg.png);
+    padding: 9%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.center .first{
+    padding: none;
+    
+    font-size: 300%;
+    font-weight: 700;
+}
